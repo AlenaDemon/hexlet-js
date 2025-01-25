@@ -1,3 +1,4 @@
 console.log("Hello, Hexlet!");
-import _ from "lodash";
-console.log(_.last(['one', 'two']));
+import lastIndex from './src/index.js'
+const last = lastIndex(["one", "two"])
+console.log(last)

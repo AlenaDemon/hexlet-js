@@ -1,8 +1,9 @@
 {
   "name": "nodejs-package",
+  "type": "module",
   "version": "1.0.0",
-  "description": "Node.js boilerplate package",
-  "main": "index.js",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/AlenaDemon/hexlet-js.git"
   },
+  "keywords": [],
   "author": "AlenaDemon",
   "license": "ISC",
   "bugs": {
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/AlenaDemon/hexlet-js#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2"
   }
 }

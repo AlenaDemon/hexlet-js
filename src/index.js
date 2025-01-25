@@ -1,5 +1,6 @@
-import _ from "lodash";
+import _ from 'lodash';
+
 export default (arr) => {
-    const result = _.last(arr)
-    return result 
-}
+  const result = _.last(arr);
+  return result;
+};

@@ -1,4 +1,5 @@
-console.log("Hello, Hexlet!");
-import lastIndex from './src/index.js'
-const last = lastIndex(["one", "two"])
-console.log(last)
+import lastIndex from './src/index.js';
+
+console.log('Hello, Hexlet!');
+const last = lastIndex(['one', 'two']);
+console.log(last);
